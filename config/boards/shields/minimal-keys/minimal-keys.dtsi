@@ -89,7 +89,6 @@
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
-        input-processors = <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;
     };
 
     left_encoder: encoder_left {
