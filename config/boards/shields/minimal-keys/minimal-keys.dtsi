@@ -1,7 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dt-bindings/zmk/input_transform.h>
-#include <dt-bindings/input/input-event-codes.h>
-#include <input/processors.dtsi>
 #include <physical_layouts.dtsi>
 
 / {
@@ -84,11 +81,6 @@
             , <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
-    };
-
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        status = "disabled";
     };
 
     left_encoder: encoder_left {

@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: hyhy-masa
+      url-base: https://github.com/hyhy-masa
     - name: caksoylar
       url-base: https://github.com/caksoylar
     - name: zettaface
@@ -15,9 +17,8 @@ manifest:
       revision: v0.3
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: badjeff
-      revision: zmk-0.3
-      path: modules/zmk-pmw3610-driver
+      remote: hyhy-masa
+      revision: c9ab9a3f
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
