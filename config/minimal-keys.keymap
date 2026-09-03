@@ -102,17 +102,17 @@
             tapping-term-ms = <200>;
         };
 
-        encoder_msc_down_up: encoder_msc_down_up {
+        scroll_up_down: scroll_up_down {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_MSC_DOWN_UP";
+            label = "SCROLL_UP_DOWN";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
             tap-ms = <30>;
         };
 
-        encoder_msc_left_right: encoder_msc_left_right {
+        scroll_left_right: scroll_left_right {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_MSC_LEFT_RIGHT";
+            label = "SCROLL_LEFT_RIGHT";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
             tap-ms = <30>;
@@ -147,7 +147,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_msc_down_up>,
+                <&scroll_up_down>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
@@ -160,7 +160,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_msc_down_up>,
+                <&scroll_up_down>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
@@ -191,7 +191,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_msc_left_right>,
+                <&scroll_left_right>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
@@ -204,7 +204,7 @@
             >;
 
             sensor-bindings =
-                <&encoder_msc_left_right>,
+                <&scroll_left_right>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
