@@ -136,7 +136,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        // Pos 15/27: エンコーダ下の左/右クリック（minimal-keys 標準）を維持
+        // Pos 15/27: 左手・最右列上2キー（エンコーダ下）= MB1/MB2。全層で維持
 
         win_base {
             bindings = <
