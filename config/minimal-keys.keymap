@@ -167,8 +167,8 @@
         num {
             bindings = <
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                            &kp SLASH     &kp EQUAL     &kp ASTERISK  &kp PLUS      &kp PERCENT
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans      &trans  &kp F11       &kp F12       &kp COMMA     &kp DOT       &kp DOLLAR
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &mkp MB1      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &mkp MB2      &trans  &kp F11       &kp F12       &kp COMMA     &kp DOT       &kp DOLLAR
 &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &kp PIPE
             >;
         };
@@ -176,8 +176,8 @@
         symbol {
             bindings = <
 &kp QUESTION  &kp EXCLAMATION  &kp AMPERSAND      &kp PIPE          &kp BACKSLASH                                   &kp SLASH              &kp EQUAL          &kp ASTERISK     &kp PLUS          &kp PERCENT
-&kp HASH      &kp GRAVE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp TILDE             &trans         &kp CARET  &kp LEFT_ARROW         &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW   &kp UNDER
-&kp AT_SIGN   &kp LESS_THAN    &kp LEFT_BRACE     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp COLON      &kp SEMI   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp DOLLAR
+&kp HASH      &kp GRAVE        &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp TILDE             &mkp MB1       &kp CARET  &kp LEFT_ARROW         &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW   &kp UNDER
+&kp AT_SIGN   &kp LESS_THAN    &kp LEFT_BRACE     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &mkp MB2       &kp SEMI   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp DOLLAR
 &trans        &trans           &trans             &trans            &trans                &trans         &trans     &trans                                                                       &trans
             >;
 
