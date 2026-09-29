@@ -73,8 +73,9 @@
 
     scroller {
         layers = <6 7>;
-        // invert-x でポインタ向きを合わせる。Cygnus 用 X_INVERT は載せない（旧 PMW3610 の INVERT_SCROLL_X 相当のみ）
+        // ポインタは invert-x。スクロール層だけ Y 反転（上下スクロール向き）
         input-processors =
+            <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
             <&zip_scroll_scaler 1 100>;
