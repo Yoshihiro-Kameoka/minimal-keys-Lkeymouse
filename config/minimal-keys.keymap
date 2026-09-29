@@ -180,6 +180,10 @@
 &kp AT_SIGN   &kp LESS_THAN    &kp LEFT_BRACE     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp COLON      &kp SEMI   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp DOLLAR
 &trans        &trans           &trans             &trans            &trans                &trans         &trans     &trans                                                                       &trans
             >;
+
+            sensor-bindings =
+                <&scroll_left_right>,
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         win_mouse {
