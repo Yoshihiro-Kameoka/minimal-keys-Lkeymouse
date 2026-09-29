@@ -6,6 +6,11 @@
         zmk,physical-layout = &minimal_keys_physical_layout;
     };
 
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+    };
+
     minimal_keys_physical_layout: minimal_keys_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
